@@ -1,0 +1,338 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 308926,
+            "max": [
+                3.4779415130615234,
+                4.011029243469238,
+                3.396390914916992
+            ],
+            "min": [
+                -3.0072176456451416,
+                0.08178800344467163,
+                -3.310710906982422
+            ],
+            "name": "accessor_buffer_Untitled.001_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 333456,
+            "max": [
+                308925
+            ],
+            "min": [
+                1
+            ],
+            "name": "accessor_buffer_Untitled.001_3",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 12,
+            "componentType": 5126,
+            "count": 308926,
+            "max": [
+                0.9999955296516418,
+                0.9999994039535522,
+                0.9999997615814209
+            ],
+            "min": [
+                -0.999998927116394,
+                -0.9750384092330933,
+                -0.9999995231628418
+            ],
+            "name": "accessor_buffer_Untitled.001_1",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 24,
+            "componentType": 5126,
+            "count": 308926,
+            "max": [
+                0.9993900656700134,
+                0.9989599999971688
+            ],
+            "min": [
+                0.0006099999882280827,
+                0.0006150007247924805
+            ],
+            "name": "accessor_buffer_Untitled.001_2",
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 81648,
+            "max": [
+                308919
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Untitled.001_4",
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 9885632,
+            "byteOffset": 0,
+            "byteStride": 32,
+            "name": "bufferView_buffer_Untitled.001_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1333824,
+            "byteOffset": 9885632,
+            "name": "bufferView_buffer_Untitled.001_1",
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 326592,
+            "byteOffset": 11219456,
+            "name": "bufferView_buffer_Untitled.001_2",
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 11546048,
+            "name": "buffer_combined",
+            "uri": "buffer_combined.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "Camera",
+            "perspective": {
+                "aspectRatio": 1.703595982340029,
+                "yfov": 0.5033799409866333,
+                "zfar": 100.0,
+                "znear": 0.10000000149011612
+            },
+            "type": "perspective"
+        }
+    ],
+    "images": [
+        {
+            "name": "puter:Material_1F",
+            "uri": "puter:Material_1F.jpg"
+        },
+        {
+            "name": "puter:Material_3F",
+            "uri": "puter:Material_3F.jpg"
+        }
+    ],
+    "materials": [
+        {
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "puter:Material_1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0,
+                    "texCoord": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        },
+        {
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "puter:Material_3",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 1,
+                    "texCoord": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Untitled.001",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 1,
+                    "material": 0,
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 4,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "name": "Camera",
+            "rotation": [
+                0.483536034822464,
+                0.20870360732078552,
+                0.33687159419059753,
+                0.7804827094078064
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                7.481131553649902,
+                -6.5076398849487305,
+                5.34366512298584
+            ]
+        },
+        {
+            "name": "Lamp",
+            "rotation": [
+                0.16907575726509094,
+                0.27217137813568115,
+                0.7558802962303162,
+                0.570947527885437
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                4.076245307922363,
+                1.0054539442062378,
+                5.903861999511719
+            ]
+        },
+        {
+            "extras": {
+                "currentUVSet": "map1"
+            },
+            "mesh": 0,
+            "name": "puter:Mesh",
+            "rotation": [
+                0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "children": [
+                2,
+                1,
+                0
+            ],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "Scene_root"
+        }
+    ],
+    "samplers": [
+        {
+            "name": "default"
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "extras": {
+                "active_camera": 0,
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                3
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "name": "puter:Material_1F",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "puter:Material_3F",
+            "sampler": 0,
+            "source": 1
+        }
+    ]
+}
